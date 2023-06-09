@@ -144,7 +144,7 @@ The following syntax describes the core feature of our AOP language designed for
     - **TARGET** means the current monitor, which is generally used in dumping the monitor member information.  
     - **LOC** means the location of the current event occurs.  
  
-<img src="resources/knitC-syntax.png" alt="knitC-syntax" style="display:block; margin:- auto;">
+<img src="resources/aop-syntax.png" alt="knitC-syntax" style="display:block; margin:- auto;">
 
 
 # [](#header-1)**Contacts**
