@@ -129,8 +129,9 @@ The Instance syntax describes the syntax involved in MOP syntax.
 - **derefPointer**  matches all the site of dereferencing pointers that conforms to the pointer type.  
 - **endProgram**  mathces all the exits of prgrams including **return statement** in main function and **exit** callsites.  
 
-<img src="resources/instance-syntax.png" alt="instance-syntax" style="display:block; margin:- auto;">
+<img src="resources/instance-syntax.png" alt="instance-syntax" style="display:block; margin:- auto;"> 
 
+By the way, when **derefPointer** encounters situations where code instrumentation may alter the program semantics, we ignore such instrumentations.
 ### [](#header-3)**(3).AOP syntax**
   
 The following syntax describes the core feature of our AOP language designed for C++ programs.  
