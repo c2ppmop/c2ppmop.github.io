@@ -255,7 +255,7 @@ The above figure or table shows that the compilation overhead of the majority (7
 We evaluate the runtime overhead for the Use-after-free property. We did experiments on **AddressSanitizer** within **-O3** for comparison. We use the below compilation options of **AddressSanitizer**; We expect these options to suppress other checkers.
 ```code
  -O3 -fsanitize=address  -fsanitize-recover=address  -mllvm -asan-stack=0 -mllvm -asan-globals=0 -fno-sanitize-address-use-after-scope 
-export ASAN_OPTIONS=detect_container_overflow=0:detect_leaks=0:leak_check_at_exit=0:check_printf=0:detect_container_overflow=0:buffer_overflow=0:report_globals=0:detect_stack_use_after_return=0:new_delete_type_mismatch=0:alloc_dealloc_mismatch=0:poison_heap=0:poison_partial=0:protect_shadow_gap=0:check_malloc_usable_size=0:allow_user_poisoning=0:replace_intrin=0:replace_str=0
+export ASAN_OPTIONS=halt_on_error=0:log_path=./error.log:detect_container_overflow=0:detect_leaks=0:leak_check_at_exit=0:check_printf=0:detect_container_overflow=0:buffer_overflow=0:report_globals=0:detect_stack_use_after_return=0:new_delete_type_mismatch=0:alloc_dealloc_mismatch=0:poison_heap=0:poison_partial=0:protect_shadow_gap=0:check_malloc_usable_size=0:allow_user_poisoning=0
 ```
 Out of the 100 real-world programs, those without drivers or a runtime overhead of AddressSanitizer or CCMOP lower than **5%** are not shown. In addition, the programs on which Sanitizer fails have not been listed. The evaluation results of valid C++ programs are shown below.
   
