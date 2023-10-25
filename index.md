@@ -30,9 +30,9 @@ To our knowledge,  **CCMOP** is the **first** runtime verification tool that imp
 *   `Transparent Compilation`: **CCMOP** provides a transparent compilation framework that avoids the tedious compilation configuration.
 
 * * *
-# [](#header-1)**Video Demonstration**
+# [](#header-1)**Demonstration Vedio**
 
-<video controls>
+<video width="760" height="415" controls>
   <source src="resources/demo.mkv" type="video/mp4">
 </video>
 
