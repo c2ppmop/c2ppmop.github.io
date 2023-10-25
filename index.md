@@ -31,9 +31,9 @@ To our knowledge,  **CCMOP** is the **first** runtime verification tool that imp
 
 * * *
 # [](#header-1)**Video Demonstration**
-<br>
-<iframe src="resources/demo.mkv">
-<br>
+
+<video src="resources/demo.mkv"></video>
+
 * * *
 
 # [](#header-1)**Contacts**
