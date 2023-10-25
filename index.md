@@ -32,7 +32,7 @@ To our knowledge,  **CCMOP** is the **first** runtime verification tool that imp
 * * *
 # [](#header-1)**Video Demonstration**
 
-<video width="320" height="240" controls>
+<video controls>
   <source src="resources/demo.mkv" type="video/mp4">
 </video>
 
